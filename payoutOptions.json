@@ -1,0 +1,19 @@
+{
+    "card": {
+        "name": "Банковская карта",
+        "hint": "Номер карты (16 цифр)",
+        "commissionFee": 50,
+        "commissionPercent": 2,
+        "minimumAmount": 50,
+        "type": "bank_card"
+    },
+    "sbp": {
+        "name": "СБП",
+        "hint": "Номер телефона",
+        "commissionFee": null,
+        "commissionPercent": 1,
+        "minimumAmount": 1000,
+        "banks": ["Сбербанк", "Тинькофф", "Альфа-Банк", "Райффайзен", "МТС-Банк", "ВТБ"],
+        "type": "phone_number"
+    }
+}
